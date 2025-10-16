@@ -11,6 +11,7 @@ export interface Product {
     current: string;
   };
   price: number;
+  featured: boolean;
   description?: any; // Portable Text
   sku: string;
   quantity: number;
